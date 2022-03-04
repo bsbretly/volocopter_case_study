@@ -10,7 +10,7 @@ See **dynamics.py** for the Euler Lagrange formulation of the octorotors dynamic
 See the included derivation of my control allocation matrix in **control_allocation_matrix.jpg**.
 
 ## Task 3
-See the suggestion for the inverse of my control allocation matrix in **control_allocation_matrix.jpg**. Alternatively, in the "px4" directory I've included a script to produce the desired "mixer" matrix. From the root of the px4 directory, simply run ```python px_generate_mixers.py -f octa_plus.toml --sixdof``` in terminal.
+See the suggestion for the inverse of my control allocation matrix in **control_allocation_matrix.jpg**. Alternatively, in the "px4_generate_mixer" directory I've included a script to produce the desired "mixer" matrix. From the root of the px4 directory, simply run ```python px_generate_mixers.py -f octa_plus.toml --sixdof``` in terminal.
 
 ## Task 4
 See the computeReferenceAttitude() (line 70) function in the **control.py** script for the second order attitude reference dynamics. 
