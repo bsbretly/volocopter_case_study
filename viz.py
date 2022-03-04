@@ -28,7 +28,6 @@ class PlotState:
             plt.legend()
 
         idx = 0
-        Tf = 0
         self.p_ds = np.zeros((self.q.shape[0], 3))
         for i in range(len(sim_phases)):
             Tf = sim_phases[i][0]
